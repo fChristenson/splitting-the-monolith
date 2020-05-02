@@ -14,8 +14,6 @@ You want to split your monolith when one of the following is true:
 - You have too many developers touching the same code
 - You have a performance heavy feature that needs to scale
 
-When a software team grows the rate at which features are added increases.
-This means that more code is changing.
 We call the pain that comes from this "growth ache".
 Pains can include:
 
@@ -24,8 +22,7 @@ Pains can include:
 - Teams blocking other teams from shipping features
 - Release coordination gets harder and harder
 
-When you are adding a feature that has higher performance requirements than the remaining system you should consider splitting as well.
-Sometimes it is better to move that feature in to a smaller service that can scale independently.
+Sometimes it is better to move a feature in to a smaller service that can scale independently.
 Consider this approach when one of the following is true:
 
 - The new feature will cause problems for the other features
@@ -50,8 +47,7 @@ Common goals are:
 
 #### What technical impact will a split have?
 
-Once the goal is set you need to consider the pros and the cons.
-Splitting a monolith is costly so always think it through.
+Splitting is costly so always think it through.
 Good questions to ask are:
 
 - How will the network calls look between the services?
@@ -62,3 +58,12 @@ Good questions to ask are:
 - What will we do with shared code between the services?
 - Should we have different repos or create a mono repo?
 - Should we stick with the same stack?
+
+#### 3. How should the split look?
+
+How to structure the split is the hardest part.
+We need a split that will help our teams move faster.
+This is easier said than done.
+
+If we do this right the developers will be able to work faster.
+If we do it wrong work will slow down.
