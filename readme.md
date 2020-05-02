@@ -14,7 +14,7 @@ You want to split your monolith when one of the following is true:
 - You have too many developers touching the same code
 - You have a performance heavy feature that needs to scale
 
-We call the pain that comes from this "growth ache".
+We call the pain that comes from staying on a monolith for too long "growth ache".
 Pains can include:
 
 - Frequent merge conflicts
