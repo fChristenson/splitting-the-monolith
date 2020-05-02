@@ -36,7 +36,7 @@ Start any split discussion with the following questions:
 2. What technical impact will a split have?
 3. How should the split look?
 
-#### What is the goal of the split?
+#### 1. What is the goal of the split?
 
 You should always start by stating what the goal of the split is.
 Common goals are:
@@ -45,7 +45,7 @@ Common goals are:
 - Scale a feature
 - Move ownership of features to a team
 
-#### What technical impact will a split have?
+#### 2. What technical impact will a split have?
 
 Splitting is costly so always think it through.
 Good questions to ask are:
