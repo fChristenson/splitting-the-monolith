@@ -13,10 +13,6 @@ app.get("/api/v1/register", (req, res) => {
 });
 
 // User features
-app.get("/api/v1/users", (req, res) => {
-  res.end("users");
-});
-
 app.post("/api/v1/users", (req, res) => {
   res.end("users");
 });
@@ -26,6 +22,15 @@ app.get("/api/v1/users/:id", (req, res) => {
 });
 
 app.put("/api/v1/users/:id", (req, res) => {
+  res.end("users");
+});
+
+// Admin user features
+app.get("/api/v1/users", (req, res) => {
+  res.end("users");
+});
+
+app.delete("/api/v1/users/:id", (req, res) => {
   res.end("users");
 });
 
@@ -47,6 +52,10 @@ app.put("/api/v1/products/:id", (req, res) => {
   res.end("products");
 });
 
+app.delete("/api/v1/products/:id", (req, res) => {
+  res.end("products");
+});
+
 // Order features
 app.post("/api/v1/orders", (req, res) => {
   res.end("orders");
@@ -62,6 +71,10 @@ app.get("/api/v1/orders", (req, res) => {
 });
 
 app.put("/api/v1/orders/:id", (req, res) => {
+  res.end("orders");
+});
+
+app.delete("/api/v1/orders/:id", (req, res) => {
   res.end("orders");
 });
 
